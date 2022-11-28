@@ -1,0 +1,46 @@
+.header {
+  background-color: #e8eaf6;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: max-content;
+}
+
+.containerBox {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.nav {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 'bold';
+}
+
+.login-section {
+  padding-top: 150px;
+  display: flex;
+  gap: 400px;
+}
+
+.loginCard {
+  background-color: #e8eaf6;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 100px;
+}
